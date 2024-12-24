@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا - ذكرى وليد</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ذكرى وليد</h1>
+        <img src="logo.png" alt="شعار المجلة">
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="articles.html">المقالات</a></li>
+                <li><a href="about.html">حول المجلة</a></li>
+                <li><a href="contact.html">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="contact">
+        <section>
+            <h2>اتصل بنا</h2>
+            <div class="form">
+                <form action="submit-form.php" method="post">
+                    <label for="name">الاسم:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">الرسالة:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">إرسال</button>
+                </form>
+                <p>معلومات التواصل هنا...</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>معلومات الاتصال وحقوق النشر © 2024 ذكرى وليد</p>
+    </footer>
+</body>
+</html>
